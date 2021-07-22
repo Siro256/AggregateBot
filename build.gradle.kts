@@ -37,5 +37,6 @@ tasks {
     withType<Jar> {
         from(configurations.api.get().apply{ isCanBeResolved = true }.map { if (it.isDirectory) it else zipTree(it) })
         manifest.attributes("Main-Class" to "dev.siro256.discordbot.aggregatebot.AggregateBot")
+        duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE
     }
 }
