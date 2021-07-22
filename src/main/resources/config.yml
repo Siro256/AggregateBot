@@ -1,0 +1,11 @@
+# BOTのトークン
+token: "Your token here!"
+
+# メッセージを投稿するチャンネル
+post_channel: 686574358315139120
+
+# メンションを飛ばす役職
+mention_role: 867596077112360984
+
+# 投票メッセージ
+poll_message: "投票してください。"
