@@ -1,0 +1,2 @@
+# AggregateBot
+ねこめさんに作ったDiscordのBOT
